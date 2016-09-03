@@ -1,0 +1,13 @@
+applogic1/DriverBasedHelper.class
+applogic1/LoginHelper1.class
+tests/LoginFlowTests.class
+pages/Page.class
+applogic1/ApplicationManager1.class
+pages/InternalPage.class
+applogic/LoginHelper.class
+pages/PageManager.class
+applogic/ApplicationManager.class
+model/LoginModel.class
+pages/LoginPage.class
+pages/TestBase.class
+pages/AnyPage.class

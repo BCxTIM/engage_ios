@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="1.083" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/timrusso/TIM/test/engage_adviser_ios"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/timrusso/TIM/test/engage_adviser_ios"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/timrusso/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/timrusso"/>
+    <property name="user.timezone" value="Europe/Chisinau"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="timrusso"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/Users/timrusso/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="loginOk" classname="tests.LoginFlowTests" time="1.083">
+    <failure message="Can&apos;t locate an element by this strategy: Locator map: &#10;- native content: &quot;By.AccessibilityId: flagButton&quot; &#10;- html content: &quot;by id or name &quot;flagDropDownList&quot;&quot;&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;Tims-iMac.local&apos;, ip: &apos;192.168.1.204&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.AccessibilityId: flagButton" 
+- html content: "by id or name "flagDropDownList""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Tims-iMac.local', ip: '192.168.1.204', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:97)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:52)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$2c50aca9.click(<generated>)
+	at pages.LoginPage.setCountry(LoginPage.java:39)
+	at applogic1.LoginHelper1.loginAs(LoginHelper1.java:22)
+	at tests.LoginFlowTests.loginOk(LoginFlowTests.java:17)
+]]></failure>
+    <system-out><![CDATA[[Appium] Welcome to Appium v1.5.2 (REV 2921795668970f9b5598037fc55940d29ba941d6)
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> GET /wd/hub/status {}
+[MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.5.2","revision":"2921795668970f9b5598037fc55940d29ba941d6"}}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 121 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/timrusso/TIM/EngageAdvisor.app","noReset":true,"platformVersion":"8.2","automationName":"Appium","platformName":"iOS","deviceName":"iPhone Simulator","fullReset":true}}
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/timrusso/TIM/EngageAdvisor.app","noReset":true,"platformVersion":"8.2","automationName":"Appium","platformName":"iOS","deviceName":...
+[Appium] Creating new IosDriver session
+[Appium] Capabilities:
+[Appium]   app: '/Users/timrusso/TIM/EngageAdvisor.app'
+[Appium]   noReset: true
+[Appium]   platformVersion: '8.2'
+[Appium]   automationName: 'Appium'
+[Appium]   platformName: 'iOS'
+[Appium]   deviceName: 'iPhone Simulator'
+[Appium]   fullReset: true
+[BaseDriver] Session created with session id: bcb65d6d-c821-4dc2-8379-993c78d40f44
+[debug] [iOS] Not auto-detecting udid.
+[BaseDriver] Using local app '/Users/timrusso/TIM/EngageAdvisor.app'
+[debug] [iOS] Removing any remaining instruments sockets
+[debug] [iOS] Cleaned up instruments socket /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/instruments_sock
+[debug] [iOS] Setting Xcode version
+[debug] [iOS] Xcode version set to 7.3
+[debug] [iOS] Setting iOS SDK Version
+[debug] [iOS] iOS SDK Version set to 9.3
+[debug] [iOS] Checking whether instruments supports our device string
+[debug] [Instruments] Getting list of devices instruments supports
+[debug] [Instruments] Instruments is at: /Applications/Xcode.app/Contents/Developer/usr/bin/instruments
+[debug] [Instruments] Available devices: Apple TV 1080p (9.2) [9A2CFA1F-51FC-4A3E-AF27-86262DDDD9DB] (Simulator),iPad 2 (8.1) [7405F305-2F79-4800-94B8-FF07A0822812] (Simulator),iPad 2 (8.2) [58080071-5DEE-4A8E-8DD0-18C60CC677D3] (Simulator),iPad 2 (9.1) [9876CAB2-3EF4-4FD5-ADC9-9BA06E1D947F] (Simulator),iPad 2 (9.3) [2136B135-EA1A-4F21-B68C-F7262D4C9858] (Simulator),iPad Air (8.1) [B9E78F53-FE82-4107-AAD4-245F782215D5] (Simulator),iPad Air (8.2) [F9EA8255-58D3-472B-A33B-1DA377A5471A] (Simulator),iPad Air (9.1) [EF289145-BE87-42B1-B0B6-54A820716B2A] (Simulator),iPad Air (9.3) [05B6623B-001D-4862-AE13-E3ADC271E078] (Simulator),iPad Air 2 (9.1) [09F4E12A-6BA8-4B96-ADB3-5F63E5D88A97] (Simulator),iPad Air 2 (9.3) [783CCF6A-ECE6-4BA7-BE4B-EC995D48E025] (Simulator),iPad Pro (9.1) [C8B9E112-5621-45F2-BF96-4B40681991A1] (Simulator),iPad Pro (9.3) [8F5CAC44-F213-40B7-8FC2-B42A9D30ED39] (Simulator),iPad Retina (8.1) [0D78972F-6E5C-487B-9C6A-16DE2DFE1979] (Simulator),iPad Retina (8.2) [6F0C6E7C-932A-4184-A257-0B217DE53078] (Simulator),iPad Retina (9.1) [0BB7DDEB-303D-4889-95B9-9FC16CCE3C12] (Simulator),iPad Retina (9.3) [A201166D-E78C-4351-A2C6-04EAFD557FFA] (Simulator),iPhone 4s (8.1) [FEDD95F3-17A9-4B45-BA7C-680E23DEA229] (Simulator),iPhone 4s (8.2) [F6E0F85C-7FF6-4ED1-BFEF-B1E1A8372C96] (Simulator),iPhone 4s (9.1) [A35BD00C-7B71-46EE-B525-6E4C1A9778F8] (Simulator),iPhone 4s (9.3) [50B3D306-9239-481F-9268-C3BE964A3CE0] (Simulator),iPhone 5 (8.1) [C2D06E07-6EAB-47FD-9892-4019BA0957FB] (Simulator),iPhone 5 (8.2) [5F35D9FA-407B-4765-A59C-4D2A4569C699] (Simulator),iPhone 5 (9.1) [68A5C88D-C5C5-4A23-A90F-FCD96D1065E9] (Simulator),iPhone 5 (9.3) [C8657F79-707D-4664-9DC3-996C7AC5DE8D] (Simulator),iPhone 5s (8.1) [E05C6088-2ED8-472E-9D2B-9E4EEB758D95] (Simulator),iPhone 5s (8.2) [89D6E139-C6E6-4AA6-97DD-585F9CF52244] (Simulator),iPhone 5s (9.1) [4AEB2B15-BE48-442E-8898-5B0FA30E9F18] (Simulator),iPhone 5s (9.3) [5FC5DF77-9331-468B-B8DE-660FFCEA2EFB] (Simulator),iPhone 6 (8.1) [BFFAD578-D037-4FFF-B383-ED04D3379C24] (Simulator),iPhone 6 (8.2) [6E496945-0426-4663-81F9-697D7DF62EF2] (Simulator),iPhone 6 (9.1) [326F5F73-931D-4C10-9DC4-8ACDA23D3A44] (Simulator),iPhone 6 (9.3) [66F9BA17-BD3F-4982-9026-C3B616B4C38C] (Simulator),iPhone 6 Plus (8.1) [0F93583C-1214-4AB5-958B-A79512261B2F] (Simulator),iPhone 6 Plus (8.2) [775909AB-500B-43CC-A784-BA34AB8815B3] (Simulator),iPhone 6 Plus (9.1) [3D1BD90A-99CD-42DA-9CF0-1B1679E1ECA0] (Simulator),iPhone 6 Plus (9.3) [26E50FD1-FEFF-4DBE-B648-4E34B7D3B064] (Simulator),iPhone 6s (9.1) [C48B7378-9A36-461E-AC5F-DD0C9493FED9] (Simulator),iPhone 6s (9.3) [20068FE6-ECDB-4D64-BC91-940840813C59] (Simulator),iPhone 6s (9.3) + Apple Watch - 38mm (2.2) [DA9971E9-9EF0-4061-A97D-316913AA1635] (Simulator),iPhone 6s Plus (9.1) [FC8BEF62-241A-4BF8-BB78-BC2A3D473A59] (Simulator),iPhone 6s Plus (9.3) [6426C7C6-34A1-448D-AC07-21DF5ADB5671] (Simulator),iPhone 6s Plus (9.3) + Apple Watch - 42mm (2.2) [6AC3DC9D-E341-4D6B-AB21-9A30DF4B0661] (Simulator)
+[iOSSim] Retrieving device name string for Xcode version 7.3
+[debug] [iOSSim] Getting device string from options: {"deviceName":"iPhone Simulator","platformVersion":"8.2","forceIphone":false,"forceIpad":false}
+[debug] [iOSSim] Fixing device. Changed from 'iPhone Simulator' to 'iPhone 6 (8.2)'
+[debug] [iOSSim] Final device string is 'iPhone 6 (8.2)'
+[debug] [iOS] iOS sim UDID is 6E496945-0426-4663-81F9-697D7DF62EF2
+[iOSSim] Constructing iOS simulator for Xcode version 7.3
+[debug] [iOS] No language specified. Using default strings
+[debug] [iOS] Strings file not found. Looking in 'en.lproj' directory
+[iOS] Could not file localizable strings file 'Localizable.strings'!
+[debug] [ios-app-utils] Getting bundle ID from app
+[iOS] Extracted bundleID: com.titanium.engageAdvisor from app: /Users/timrusso/TIM/EngageAdvisor.app
+[debug] [iOS] Creating instruments
+[debug] [UIAuto] Preparing bootstrap code
+[debug] [UIAuto] Dynamic bootstrap dir: /Users/timrusso/Library/Application Support/appium/bootstrap
+[debug] [UIAuto] Dynamic env: {"nodePath":"/usr/local/bin/node","commandProxyClientPath":"/usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/node_modules/appium-uiauto/build/lib/bin/command-proxy-client.js","instrumentsSock":"/var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/instruments_sock","interKeyDelay":null,"justLoopInfinitely":false,"autoAcceptAlerts":false,"autoDismissAlerts":false,"sendKeyStrategy":"oneByOne"}
+[debug] [UIAuto] Dynamic bootstrap code: // This file is automatically generated. Do not manually modify!...
+[debug] [UIAuto] Dynamic bootstrap path: /Users/timrusso/Library/Application Support/appium/bootstrap/bootstrap-ed666c442a7ff0e3.js
+[debug] [UIAuto] Reusing dynamic bootstrap: /Users/timrusso/Library/Application Support/appium/bootstrap/bootstrap-ed666c442a7ff0e3.js
+[debug] [iOS] User specified default device, letting instruments launch it
+[debug] [iOS] Reset not set, not ending sim
+[debug] [iOS] Not setting locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSLog] Starting iOS 8.2 simulator log capture
+[debug] [iOSLog] System log path: /Users/timrusso/Library/Logs/CoreSimulator/6E496945-0426-4663-81F9-697D7DF62EF2/system.log
+[debug] [iOS] Not pre-launching simulator
+[debug] [iOS] Starting UIAutoClient, and launching Instruments.
+[debug] [UIAuto] Instruments socket server started at /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/instruments_sock
+[debug] [Instruments] Instruments is at: /Applications/Xcode.app/Contents/Developer/usr/bin/instruments
+[debug] [Instruments] Attempting to launch instruments, this is try #1
+[Instruments] Launching instruments
+[debug] [Instruments] Attempting to run app on iPhone 6 (8.2)
+[Instruments] On xcode 7.0+, instruments-without-delay does not work, skipping instruments-without-delay
+[debug] [Instruments] Found Insruments-Without-Delay: /usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/node_modules/appium-instruments/thirdparty/iwd7
+[debug] [Instruments] Spawning instruments with command: '/Applications/Xcode.app/Contents/Developer/usr/bin/instruments -t /Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate -D /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/appium-instruments/instrumentscli0.trace -w "iPhone 6 (8.2)" /Users/timrusso/TIM/EngageAdvisor.app -e UIASCRIPT "/Users/timrusso/Library/Application Support/appium/bootstrap/bootstrap-ed666c442a7ff0e3.js" -e UIARESULTSPATH /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/appium-instruments'
+[debug] [Instruments] And launch timeouts (in ms): {"global":90000}
+[UIAuto] Instruments is ready to receive commands
+[debug] [iOS] Instruments launched. Starting poll loop for new commands.
+[debug] [iOS] Setting bootstrap config keys/values
+[debug] [UIAuto] Socket data received (2 bytes)
+[debug] [UIAuto] Got a result when we were not expecting one! Ignoring it
+[debug] [UIAuto] Sending command to instruments: target = $.target();
+au = $;
+$.isVerbose = true;
+
+[debug] [Instruments] [INST] 2016-06-10 13:07:43 +0000 Debug: evaluation finished
+[debug] [Instruments] [INST] 2016-06-10 13:07:43 +0000 Debug: responding with:
+[debug] [Instruments] [INST] 2016-06-10 13:07:43 +0000 Debug: Running system command #1: /usr/local/bin/node /usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/node_modules/appium-uiauto/build/lib/bin/command-proxy-client.js /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/instruments_sock 2,{"status":0,"value":true}...
+[debug] [UIAuto] Socket data received (27 bytes)
+[debug] [UIAuto] Got result from instruments: {"status":0,"value":true}
+[debug] [iOS] Setting initial orientation to PORTRAIT
+[debug] [UIAuto] Sending command to instruments: au.setScreenOrientation('PORTRAIT')
+[debug] [Instruments] [INST] 2016-06-10 13:07:44 +0000 Debug: Got new command 1 from instruments: au.setScreenOrientation('PORTRAIT')
+[debug] [Instruments] [INST] 2016-06-10 13:07:44 +0000 Debug: evaluating au.setScreenOrientation('PORTRAIT')
+[debug] [Instruments] [INST] 2016-06-10 13:07:44 +0000 Debug: target.setDeviceOrientation("1")
+[debug] [Instruments] [INST] 2016-06-10 13:07:45 +0000 Debug: evaluation finished
+[debug] [Instruments] [INST] 2016-06-10 13:07:45 +0000 Debug: responding with:
+[debug] [Instruments] [INST] 2016-06-10 13:07:45 +0000 Debug: Running system command #2: /usr/local/bin/node /usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/node_modules/appium-uiauto/build/lib/bin/command-proxy-client.js /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/instruments_sock 2,{"status":0,"value":"PORTRAIT"}...
+[debug] [UIAuto] Socket data received (33 bytes)
+[debug] [UIAuto] Got result from instruments: {"status":0,"value":"PORTRAIT"}
+[debug] [iOS] Waiting for app source to contain elements
+[debug] [UIAuto] Sending command to instruments: au.mainApp().getTreeForXML()
+[debug] [Instruments] [INST] 2016-06-10 13:07:46 +0000 Debug: Got new command 2 from instruments: au.mainApp().getTreeForXML()
+[debug] [Instruments] [INST] 2016-06-10 13:07:46 +0000 Debug: evaluating au.mainApp().getTreeForXML()
+[debug] [Instruments] [INST] 2016-06-10 13:07:46 +0000 Debug: evaluation finished
+[debug] [Instruments] [INST] 2016-06-10 13:07:46 +0000 Debug: responding with:ed":true,"valid":true,"visible":true,"hint":null,"path":"/0/0","x":0,"y":0,"width":375,"height":667},">":[{"UIAImage":{"@":{"name":"new_logo","label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/0","x":85.5,"y":258.5,"width":204,"height":95},">":[]}},{"UIAStaticText":{"@":{"name":"Because Service Doesn't End When You Pay","label":"Because Service Doesn't End When You Pay","value":"Because Service Doesn't End When You Pay","dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/1","x":85,"y":353.5,"width":205.5,"height":36},">":[]}},{"UIAButton":{"@":{"name":"settingsButton","label":"settingsButton","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/2","x":343,"y":30,"width":22,"height":22},">":[]}},{"UIAImage":{"@":{"name":"new_logo","label":"logoImage","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/3","x":44,"y":112.5,"width":287,"height":97},">":[]}},{"UIAButton":{"@":{"name":"chooseCountryButton","label":"chooseCountryButton","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/4","x":61.5,"y":421.5,"width":70,"height":42},">":[]}},{"UIAImage":{"@":{"name":"ca","label":"chooseCountryImageView","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/5","x":68.5,"y":426.5,"width":32,"height":32},">":[]}},{"UIAImage":{"@":{"name":"drop_arrow","label":"chooseCountryDropDownArrow","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/6","x":100.5,"y":421.5,"width":31,"height":42},">":[]}},{"UIATextField":{"@":{"name":"phoneNumberTextField","label":"phoneNumberTextField","value":"Your phone number","dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/7","x":147.5,"y":421.5,"width":159,"height":42},">":[{"UIATextField":{"@":{"name":"phoneNumberTextField","label":"phoneNumberTextField","value":"Your phone number","dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/7/0","x":147.5,"y":421.5,"width":159,"height":42},">":[]}}]}},{"UIAStaticText":{"@":{"name":"messageTextLabel","label":"messageTextLabel","value":"messageTextLabel","dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/8","x":72.5,"y":473.5,"width":230.5,"height":28.5},">":[]}},{"UIAImage":{"@":{"name":"laoding","label":"loadreImage","value":null,"dom":null,"enabled":true,"valid":true,"visible":false,"hint":null,"path":"/0/0/9","x":152,"y":401.5,"width":71,"height":69},">":[]}},{"UIAStaticText":{"@":{"name":"welcomeToEngageText","label":"welcomeToEngageText","value":"welcomeToEngageText","dom":null,"enabled":true,"valid":true,"visible":false,"hint":null,"path":"/0/0/10","x":86.5,"y":511.5,"width":202.5,"height":49},">":[]}},{"UIAImage":{"@":{"name":"laoding","label":"loadreImage","value":null,"dom":null,"enabled":true,"valid":true,"visible":false,"hint":null,"path":"/0/0/11","x":152,"y":401.5,"width":71,"height":69},">":[]}},{"UIAStaticText":{"@":{"name":"welcomeToEngageText","label":"welcomeToEngageText","value":"welcomeToEngageText","dom":null,"enabled":true,"valid":true,"visible":false,"hint":null,"path":"/0/0/12","x":86.5,"y":511.5,"width":202.5,"height":49},">":[]}},{"UIAButton":{"@":{"name":"getCodeButton","label":"getCodeButton","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/13","x":61.5,"y":572,"width":252,"height":40},">":[]}},{"UIAButton":{"@":{"name":"whyWeeNeedYouNumberButton","label":"whyWeeNeedYouNumberButton","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/14","x":99,"y":617.5,"width":177,"height":27.5},">":[]}},{"UIAStaticText":{"@":{"name":"ENIntroRootViewController","label":"ENIntroRootViewController","value":"ENIntroRootViewController","dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/0/15","x":85,"y":323.5,"width":205.5,"height":20.5},">":[]}}]}},{"UIAWindow":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":false,"hint":null,"path":"/0/1","x":0,"y":0,"width":375,"height":667},">":[]}},{"UIAWindow":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/2","x":0,"y":0,"width":375,"height":667},">":[{"UIAStatusBar":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0/2/0","x":0,"y":0,"width":375,"height":20},">":[{"UIAElement":{"@":{"name":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","label":null,"value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/2/0/0","x":6,"y":0,"width":38,"height":20},">":[]}},{"UIAElement":{"@":{"name":"3 of 3 Wi-Fi bars","label":"3 of 3 Wi-Fi bars","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/2/0/1","x":49,"y":0,"width":13,"height":20},">":[]}},{"UIAElement":{"@":{"name":"4:07 PM","label":"4:07 PM","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/2/0/2","x":164,"y":0,"width":47,"height":20},">":[]}},{"UIAElement":{"@":{"name":"100% battery power","label":"100% battery power","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":"Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top","path":"/0/2/0/3","x":345,"y":0,"width":25,"height":20},">":[]}}]}}]}}]}}}
+[debug] [Instruments] [INST] 2016-06-10 13:07:46 +0000 Debug: Running system command #3: /usr/local/bin/node /usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/node_modules/appium-uiauto/build/lib/bin/command-proxy-client.js /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/instruments_sock 2,{"status":0,"value":{"UIAApplication":{"@":{"name":"EngageAdvisor","label":"Engag...
+[debug] [UIAuto] Socket data received (6485 bytes)
+[debug] [UIAuto] Got result from instruments: {"status":0,"value":{"UIAApplication":{"@":{"name":"EngageAdvisor","label":"EngageAdvisor","value":null,"dom":null,"enabled":true,"valid":true,"visible":true,"hint":null,"path":"/0","x":0,"y":20,"width":375,"height":647},">":[{"UIAWindow":{"@":{"name":null,"label":null,"value":null,"dom":null,"enabl
+[Appium] New IosDriver session created successfully, session bcb65d6d-c821-4dc2-8379-993c78d40f44 added to master session list
+[MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takes...
+[HTTP] <-- POST /wd/hub/session 200 8699 ms - 643 
+[HTTP] --> POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/timeouts {"type":"implicit","ms":30000}
+[MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",30000,"bcb65d6d-c821-4dc2-8379-993c78d40f44"]
+[debug] [iOS] Executing iOS command 'timeouts'
+[debug] [BaseDriver] Set implicit wait to 30000ms
+[MJSONWP] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/timeouts 200 3 ms - 76 
+[HTTP] --> POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/timeouts {"type":"implicit","ms":0}
+[MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",0,"bcb65d6d-c821-4dc2-8379-993c78d40f44"]
+[debug] [iOS] Executing iOS command 'timeouts'
+[debug] [BaseDriver] Set implicit wait to 0ms
+[MJSONWP] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/timeouts 200 2 ms - 76 
+[HTTP] --> GET /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/context {}
+[MJSONWP] Calling AppiumDriver.getCurrentContext() with args: ["bcb65d6d-c821-4dc2-8379-993c78d40f44"]
+[debug] [iOS] Executing iOS command 'getCurrentContext'
+[MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[HTTP] <-- GET /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/context 200 3 ms - 84 
+[HTTP] --> POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/elements {"using":"accessibility id","value":"flagButton"}
+[MJSONWP] Calling AppiumDriver.findElements() with args: ["accessibility id","flagButton","bcb65d6d-c821-4dc2-8379-993c78d40f44"]
+[debug] [iOS] Executing iOS command 'findElements'
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [UIAuto] Sending command to instruments: au.getElementsByAccessibilityId('flagButton')
+[debug] [Instruments] [INST] 2016-06-10 13:07:47 +0000 Debug: Got new command 3 from instruments: au.getElementsByAccessibilityId('flagButton')
+[debug] [Instruments] [INST] 2016-06-10 13:07:47 +0000 Debug: evaluating au.getElementsByAccessibilityId('flagButton')
+[debug] [Instruments] [INST] 2016-06-10 13:07:47 +0000 Debug: evaluation finished
+[debug] [Instruments] [INST] 2016-06-10 13:07:47 +0000 Debug: responding with:
+       2016-06-10 13:07:47 +0000 Debug: Running system command #4: /usr/local/bin/node /usr/local/lib/node_modules/appium/node_modules/appium-ios-driver/node_modules/appium-uiauto/build/lib/bin/command-proxy-client.js /var/folders/3g/qvlt8h5n6f7b_30w3ldn9dzc0000gn/T/instruments_sock 2,{"status":0,"value":[]}...
+[debug] [UIAuto] Socket data received (25 bytes)
+[debug] [UIAuto] Got result from instruments: {"status":0,"value":[]}
+[MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/elements 200 1046 ms - 74 
+[HTTP] --> POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/timeouts {"type":"implicit","ms":1000}
+[MJSONWP] Calling AppiumDriver.timeouts() with args: ["implicit",1000,"bcb65d6d-c821-4dc2-8379-993c78d40f44"]
+[debug] [iOS] Executing iOS command 'timeouts'
+[debug] [BaseDriver] Set implicit wait to 1000ms
+[MJSONWP] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/bcb65d6d-c821-4dc2-8379-993c78d40f44/timeouts 200 2 ms - 76 
+]]></system-out>
+  </testcase>
+</testsuite>

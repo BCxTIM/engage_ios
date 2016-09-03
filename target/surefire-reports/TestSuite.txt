@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.819 sec <<< FAILURE! - in TestSuite
+loginOk(tests.LoginFlowTests)  Time elapsed: 1.083 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.AccessibilityId: flagButton" 
+- html content: "by id or name "flagDropDownList""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Tims-iMac.local', ip: '192.168.1.204', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:97)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:52)
+	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$2c50aca9.click(<generated>)
+	at pages.LoginPage.setCountry(LoginPage.java:39)
+	at applogic1.LoginHelper1.loginAs(LoginHelper1.java:22)
+	at tests.LoginFlowTests.loginOk(LoginFlowTests.java:17)
+
